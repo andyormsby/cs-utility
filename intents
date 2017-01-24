@@ -1,0 +1,35 @@
+{
+"intents": [
+  {
+    "intent": "TopNews"
+  },
+  {
+    "intent": "Summary"
+  },
+  {
+   "intent": "Updates"
+ },
+ {
+    "intent": "Calendar"
+ },
+ {
+   "intent": "Overdue"
+ },
+ {
+   "intent": "AskReminder"
+ },
+ {
+   "intent": "SendReminder",
+   "slots": [
+   	{
+   		"name": "NumericAnswer",
+   		"type": "AMAZON.NUMBER"
+	}
+   ]
+ },
+ {
+   "intent": "AMAZON.HelpIntent"
+ }
+]
+}
+
