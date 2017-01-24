@@ -1,0 +1,22 @@
+{
+  "name": "Salesforce Alexa Skill",
+  "description": "Salesforce-powered Skill for Alexa to suport onboarding",
+  "env": {
+    "SF_CLIENT_ID": {
+      "description": "Consumer Key of your Salesforce Connected App",
+      "value":""
+    },
+    "SF_CLIENT_SECRET": {
+      "description": "Consumer Secret of your Salesforce Connected App",
+      "value":""
+    },
+    "SF_USER_NAME": {
+      "description": "Salesforce username for your integration user",
+      "value":""
+    },
+    "SF_PASSWORD": {
+      "description": "Salesforce password for your integration user",
+      "value":""
+    }
+  }
+}
